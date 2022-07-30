@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Galeria</title>
+</head>
+<body>
+    <a href="./index.html" class="enlace galeria">Ir a inicio</a>
+    <h1>Galeria de imagenes</h1>
+    <img src="https://img.freepik.com/free-photo/wonderful-european-female-model-chilling-with-puppy-indoor-portrait-debonair-girl-enjoying-portraitshoot-with-her-cute-pet_197531-11031.jpg?t=st=1658622182~exp=1658622782~hmac=4f2ae4381ce32540f387b935f652bf9bc1e7f7195cf48fcdac356ac65e2c1434&w=740" alt= imagen animada de persona y perro"" width="600px" height="400px">
+    <img src="https://img.freepik.com/free-photo/red-haired-white-girl-posing-studio-with-her-pet-good-looking-young-lady-hat-holding-french-bulldog-bright_197531-11096.jpg?t=st=1658622650~exp=1658623250~hmac=b2517b2adae157d6312cc86dfe9e7db949951b4fcac65395967b50cf8be51b3e&w=740" alt=imagen animada de perro y humana"">
+</body>
+</html>
