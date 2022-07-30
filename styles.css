@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    position: relative;
+    padding-bottom: 3rem 8%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+header{
+    display: flex;
+    min height: 70px;
+    background-color: #e6a9ac;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    }
+    
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo img {
+    height: 70px;
+    margin-right: 10px;
+    }
+
+a{
+    background-color: rgb(247, 181, 181);
+}
+
+nav a{
+    font-weight: 600 ;
+    padding-right: 10px;
+
+}
+nav a:hover{
+    color: rgb(255, 255, 255);
+}
+@media (max-width:700px)   {
+
+header{
+    flex-direction: column;
+}
+nav {
+    padding: 10px 0px;
+}
+}
+
+
+
+.galeria{
+    border: 5px solid rgb(247, 181, 181);
+}
+#enlaceuno{
+    border-bottom:0,3px solid rgb(#dd7277);
+}
+#enlacedos{
+    border-top: 3px solid rgb(#dd7277);
+}
+
+#seccion1{
+margin: 90px;
+
+}
+
+#seccion2{
+border: 5px solid rgba(#dd7277);
+}
+
+ #titulo1 {
+    color: rgb(0, 0, 0);
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        text-shadow: 4px 4px 4px #aaa;
+        text-align: center;
+    }
+    #titulo2 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        text-shadow: 4px 4px 4px #aaa;
+        text-align: center;
+
+    }
+#titulo3 {
+ 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-shadow: 4px 4px 4px #aaa;
+    text-align: center;
+}
+    
+    #seccionparallax1 {
+        background-image: url(https://64.media.tumblr.com/508a33ea822385b4099ed0be81607639/5fe835f0b61c9a14-d2/s2048x3072/bc0c04c59b89aaca26e157cecb79be43ab53ece5.pnj);
+        height: 800px;
+        
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 75px;
+        padding: 0%;
+        color: rgb(0, 0, 0);
+    
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 40px;
+        text-shadow: 4px 4px 4px #aaa;
+        text-align: center;
+        
+        }
+        
+#seccionparallax2 {
+background-image: url(https://64.media.tumblr.com/508a33ea822385b4099ed0be81607639/5fe835f0b61c9a14-d2/s2048x3072/bc0c04c59b89aaca26e157cecb79be43ab53ece5.pnj);
+height: 800px;
+
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin-bottom: 75px;
+padding: 0%;
+color: rgb(0, 0, 0);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        text-shadow: 4px 4px 4px #aaa;
+        text-align: center;
+
+}
+
+footer{
+width: 100%;
+position: absolute;
+left: 0;    
+padding: 2rem 8%;
+text-align: center;
+background-color: #dd7277;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+bottom: 0;
+}
+.logo{
+height: 60px;
+margin-bottom: 1rem;
+
+
+}
+
+.social-icons-container, .footer-menu-container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+margin-bottom: 1rem;
+
+}
+.social-icons{
+    height: 50px;
+width: 50px;
+border-radius: 50px;
+border: 1px solid #aaa;
+background-image: url(resources/FacebookBlanco.png);
+background-position: center;
+background-size: 40px;
+background-repeat: no-repeat;
+margin: 1rem;
+
+}
+.social-icons:hover{
+background-color: #aaa;
+filter: invert(1);
+}
+
+.social-icon:nth-of-type(2){
+
+background-image: url(resources/instagramBlanco.png);
+}
+.footer-menu-container{
+list-style-type: none;
+color: #aaa;
+font-size: 18px;
+}
+
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.copyright{
+color: #aaa;
+opacity: 0.3;
+text-align: center;
+
+
+}
+
+
+
+
